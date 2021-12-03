@@ -59,6 +59,36 @@
             background-color: #fff;
         }
 
+    @media screen and (max-width: 600px) {
+
+            .main-column {
+                width: 240px;
+                max-width: 300px;
+                margin: 0 0 20px 180px !important;
+                border: none !important;
+            }
+
+            .column {
+                display: block !important;
+                padding: 30px 0 0 0 !important;
+            }
+            .m25-txt {
+                padding: 10px 0 0 165px !important;
+            }
+            .cl1 img {
+                padding: 10px 0 0 40px !important;
+            }
+            .cl2 img {
+                padding: 30px 0 0 76px !important;
+            }
+            .cl2 hr {
+                display: none !important;
+            }
+            .cl3 img {
+                padding: 30px 0 5px 50px !important;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -87,6 +117,7 @@
                             <td style="text-align: center; padding: 5rem 0 0 0;">
                                 <h3 style="padding: 0 0 .5rem 0;">CATHERINE, GOOD NEWS!</h3>
                                 <h1 style="padding: 0 0 2.5rem 0;">PART OF YOUR ORDER IS ON IT'S WAY!</h1>
+                                <!-- <hr style="width: 20%; margin: 0 0 0 15rem;"> -->
                             </td>
                         </tr>
                     </table>
@@ -445,28 +476,56 @@
 
                                 <table style="padding: 0 0 10px 0;">
                                     <tr>
-                                        <td align="left">
+                                        <td align="left" class="m25-txt">
                                             <p style="font-size: 18px; font-weight: semi-bold;">Want to chat? We're here for you!</p>
                                         </td>
                                     </tr>
                                 </table>
 
-                                <table width="100%" height="150px;" style="border: 1px solid rgb(61, 61, 61);">
+                                <table class="main-column"  width="100%" height="150px;" style="border: 1px solid rgb(61, 61, 61);">
                                     <tr>
-                                        <td width="0">
-                                            <a href="#">
-                                                <img src="https://i.ibb.co/4RPfqsP/am-phone2.jpg" style="padding: 0 0 12px 30px;" width="155px;" style="padding: 0 30px 5px 0;" alt="">
-                                            </a>
-                                        </td>
-                                        <td width="0">
-                                            <a href="#">
-                                                <img src="https://i.ibb.co/vk1K8MP/am-email3.jpg" style="padding: 5px 20px 0px 20px;" width="160px;" alt="">
-                                            </a>
-                                        </td>
-                                        <td width="0">
-                                            <a href="#">
-                                                <img src="https://i.ibb.co/bs9j0JK/am-chat2.jpg" style="padding: 3px 25px 0 0;" width="140px;" alt="">
-                                            </a>
+                                        <td>
+
+                                            <table class="column cl1" style="display: inline-block; vertical-align: middle;">
+                                                <tr>
+
+                                                    <td width="0">
+                                                        <a href="#">
+                                                            <img src="https://i.ibb.co/4RPfqsP/am-phone2.jpg" style="padding: 10px 0 12px 40px;" width="160px;" alt="">
+                                                        </a>
+                                                    </td>
+                                                    
+                                                </tr>
+                                            </table>
+                                            <table class="column cl2"  style="display: inline-block; vertical-align: middle; padding: 0 0 0 25px;">
+                                                <tr>
+
+                                                    <td>
+                                                        <hr style="background-color: #808080; width: .5px; height: 80px;">
+                                                    </td>
+                                                    <td width="0">
+                                                        <a href="#">
+                                                            <img src="https://i.ibb.co/tc4cJf6/am-email.jpg" style="padding: 5px 20px 0px 20px;" width="100px;" alt="">
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <hr style="background-color: #808080; width: .5px; height: 80px;">
+                                                    </td>
+                                                    
+                                                </tr>
+                                            </table>
+                                            <table class="column cl3"  style="display: inline-block; vertical-align: middle;">
+                                                <tr>
+
+                                                    <td width="0">
+                                                        <a href="#">
+                                                            <img src="https://i.ibb.co/bs9j0JK/am-chat2.jpg" style="padding: 3px 0px 0 25px;" width="150px;" alt="">
+                                                        </a>
+                                                    </td>
+                                                    
+                                                </tr>
+                                            </table>
+                                                    
                                         </td>
                                     </tr>
                                 </table>
